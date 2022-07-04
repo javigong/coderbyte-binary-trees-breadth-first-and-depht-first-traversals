@@ -9,6 +9,9 @@
  * We are able to process two element per loop instead of
  * just one.
  *
+ * - Here we use Two Pointer, each starting from the beginning
+ * and the end until they both meet.
+ *
  * - Here we use one pointer moving at a slow pace, while
  * the other pointer moves at twice the speed.
  *
