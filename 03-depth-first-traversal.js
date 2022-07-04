@@ -25,7 +25,7 @@ c.right = f;
 //  / \     \
 // d   e     f
 
-// Deph First Traversal
+// Depth First Traversal
 
 const depthFirstPrint = (root) => {
   const stack = [root];
@@ -47,7 +47,7 @@ const depthFirstPrint = (root) => {
 
 depthFirstPrint(a); // abdecf
 
-// Depth First Search Types:
+// Depth First Search Variations:
 // pre-order:   self, left, right
 // post-oder:   left, right, self
 // in-order:    left, self, right

@@ -38,7 +38,7 @@ const depthFirstPrint = (root) => {
 
 depthFirstPrint(a); // abdecf
 
-// Depth First Search Types:
+// Depth First Search Variations:
 // pre-order:   self, left, right
 // post-oder:   left, right, self
 // in-order:    left, self, right
